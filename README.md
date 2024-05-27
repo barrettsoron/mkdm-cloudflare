@@ -1,5 +1,5 @@
-# mkdm-cloudflare
-MkDocs-Material – Using Docker with Cloudflare Tunnels
+# Template for Mkdocs-Material 
+MkDocs-Material – Using Docker with Cloudflare Tunnels and Zero Trust
 
 ### Using Docker
 1. Clone or fork this repo.
@@ -10,3 +10,6 @@ MkDocs-Material – Using Docker with Cloudflare Tunnels
 
 ### Using Cloudflare Tunnels
 Configure a public hostname in Cloudflare Tunnels paired to a Cloudflare-managed domain address. Cloudflare will auto-config the DNS, but remember to map the ports properly. 
+
+### Using Cloudflare Zero Trust
+OAuth credentials for access control groups managed by Cloudflare.
